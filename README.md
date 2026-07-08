@@ -8,33 +8,28 @@ A secure backend application built with Node.js, Express.js, and MongoDB Atlas. 
 - Complete CRUD Operations (Fetch, Update, Delete Users)
 - Cloud Database Integration with MongoDB Atlas
 
-## Getting Started
+## Getting Started j
 
 1. Clone the project and install dependencies:
-   ```bash
-   npm install
+```bash
+npm install
 
-   Create a .env file in the root directory:
+1. Create a .env file in the root directory:
 
-Code snippet
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret_key
-Run the server:
 
+2. Run the server:
 Bash
 npm run dev
-API Endpoints
+
+API Endpoints:
+
 POST /api/register - User Registration
-
 POST /api/login - User Login (Returns JWT Token)
-
 GET /api/profile - Get User Profile (Protected)
-
 GET /api/users - Get All Users
-
 GET /api/users/:id - Get Single User
-
 PUT /api/users/:id - Update User Name
-
 DELETE /api/users/:id - Delete User
